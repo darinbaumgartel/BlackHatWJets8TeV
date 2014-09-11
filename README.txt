@@ -73,6 +73,7 @@ You need to be in an sh shell. First, setup tools.
     $ source ./setup.sh
     $ cd blackhat_hists
     $ make clean && make
+    $ mkdir hists logs tmpjobs
 
 The structure of the output histograms is defined in blackhat_hists/makeHistograms.cpp
 If you change this file, rerun the make commands.
