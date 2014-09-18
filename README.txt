@@ -71,6 +71,7 @@ You need to be in an sh shell. First, setup tools.
     $ cmsenv
     $ cd -
     $ source ./setup.sh
+    $ sed -i 's#HEADDIRECTORY#'`pwd`'#g' blackhat_hists/Makefile	
     $ cd blackhat_hists
     $ make clean && make
     $ mkdir hists logs tmpjobs
